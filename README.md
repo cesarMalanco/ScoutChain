@@ -82,7 +82,7 @@ The program is live on **Solana Devnet**. You can verify the instructions and ac
 
 **Program ID:** `CXYaPQ451V8DD43pWCepNyddkf2Pnjk3mqvLgchJR5Fb`
 
-[👉 View on Solana Explorer](https://explorer.solana.com/address/CXYaPQ451V8DD43pWCepNyddkf2Pnjk3mqvLgchJR5Fb%3Fcluster%3Ddevnet)
+[👉 View on Solana Explorer](https://explorer.solana.com/address/CXYaPQ451V8DD43pWCepNyddkf2Pnjk3mqvLgchJR5Fb?cluster=devnet)
 
 ---
 
