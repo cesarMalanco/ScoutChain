@@ -40,7 +40,8 @@ The program utilizes **Program Derived Addresses (PDAs)** to ensure data integri
 
 ### 🔐 Security
 * **Owner Validation:** `require!` macros ensure only the account creator can modify their data.
-* **PDA Seeds:** * `["player", authority]`
+* **PDA Seeds:**
+    * `["player", authority]`
     * `["scout", authority]`
     * `["review", player_pubkey, scout_pubkey, review_count]`
 
@@ -81,19 +82,19 @@ The program is live on **Solana Devnet**. You can verify the instructions and ac
 
 **Program ID:** `CXYaPQ451V8DD43pWCepNyddkf2Pnjk3mqvLgchJR5Fb`
 
-[View on Solana Explorer](https://www.google.com/search?q=https://explorer.solana.com/address/CXYaPQ451V8DD43pWCepNyddkf2Pnjk3mqvLgchJR5Fb%3Fcluster%3Ddevnet)
+[👉 View on Solana Explorer](https://explorer.solana.com/address/CXYaPQ451V8DD43pWCepNyddkf2Pnjk3mqvLgchJR5Fb%3Fcluster%3Ddevnet)
 
 ---
 
 ## 🧪 Testing & Devnet Validation
 
-The test suite is built in TypeScript and performs a full lifecycle check. It uses fresh `Keypair` generation for every run to avoid PDA collisions.
+The test suite is built in TypeScript and performs a full lifecycle check. It uses fresh `Keypair` generation for every run to avoid PDA collisions and provides direct links to the explorer for each transaction.
 
 ### Test Screenshot
 
 <div align="center">
 
-`![Test Results Placeholder](./assets/test-results.png)`
+<img src="assets/tests_img.jpg" alt="Test screenshot">
 
 </div>
 
@@ -129,7 +130,10 @@ The test will log:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/Andres/scout-chain.git](https://github.com/Andres/scout-chain.git)
+git clone [https://github.com/cesarMalanco/scout-chain.git](https://github.com/cesarMalanco/scout-chain.git)
+
+# Navigate into project
+cd scout-chain
 
 # Install dependencies
 npm install
@@ -164,7 +168,7 @@ This project is licensed under the MIT License.
 
 <div align="center">
 
-**Andrés**
+**César Malanco**
 
 Built with ❤️ using Rust, Anchor & Solana
 
