@@ -94,7 +94,7 @@ The test suite is built in TypeScript and performs a full lifecycle check. It us
 
 <div align="center">
 
-<img src="assets/tests_img.jpg" alt="Test screenshot">
+<img src="assets/tests_img.png" alt="Test screenshot">
 
 </div>
 
